@@ -1,3 +1,6 @@
+.ipynb_checkpoints
+data/imdb.pkl
+
 code/*.pyc
 code/*_plots
 code/tmp*
