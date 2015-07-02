@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70599182-675b-49d1-9380-ebf25356c81e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/scratch-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/scratch-checkpoint.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scratch.ipynb" afterPath="$PROJECT_DIR$/scratch.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DeepLearningTutorials.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,7 +39,7 @@
       <file leaf-file-name="logisticregression.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/neurality/logisticregression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.59430605">
+            <state vertical-scroll-proportion="1.6548042">
               <caret line="155" column="58" selection-start-line="155" selection-start-column="58" selection-end-line="155" selection-end-column="58" />
               <folding>
                 <element signature="e#23#35#0" expanded="true" />
@@ -350,14 +348,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1367" height="1523" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24981132" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24981132" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -411,7 +409,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/neurality/logisticregression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59430605">
+        <state vertical-scroll-proportion="1.6548042">
           <caret line="155" column="58" selection-start-line="155" selection-start-column="58" selection-end-line="155" selection-end-column="58" />
           <folding>
             <element signature="e#23#35#0" expanded="true" />
