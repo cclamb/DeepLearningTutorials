@@ -8,7 +8,7 @@ import theano.tensor as T
 
 
 class LogisticRegression(object):
-    def __init__(self, input, datapoints_dim, label_dim):
+    def __init__(self, input, n_in, n_out):
         # Here, we initialize an empty array with the dimentions
         # of the number of classes by the number of elements.
         #
@@ -21,7 +21,7 @@ class LogisticRegression(object):
         # input value will have 768 elements.
         self.W = theano.shared(
             value=numpy.zeros(
-                (datapoints_dim, label_dim),
+                (n_in, n_out),
                 dtype=theano.config.floatX
             ),
             name='W',
@@ -32,7 +32,7 @@ class LogisticRegression(object):
         # In our MNIST example, we will have one bias per class.
         self.b = theano.shared(
             value=numpy.zeros(
-                (label_dim,),
+                (n_out,),
                 dtype=theano.config.floatX
             ),
             name='b',
@@ -104,7 +104,7 @@ def sgd_optimization_mnist(
     y = T.ivector('y')
 
     # This is a symbolically defined classifier...
-    classifier = LogisticRegression(input=x, datapoints_dim=28*28, label_dim=10)
+    classifier = LogisticRegression(input=x, n_in=28*28, n_out=10)
 
     # ...and the NLL as a cost function from that classifier.
     cost = classifier.negative_log_likelihood(y)
@@ -187,9 +187,9 @@ def sgd_optimization_mnist(
                     test_score * 100.
                 )
 
-        if patience <= iteration:
-            done_looping = True
-            break
+            if patience <= iteration:
+                done_looping = True
+                break
 
     end_time = timeit.default_timer()
     print 'Optimization complete with best validation score of %f %% and test performance %f %%' % (

@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70599182-675b-49d1-9380-ebf25356c81e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logistic_regression.ipynb" afterPath="$PROJECT_DIR$/logistic_regression.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/neurality/logisticregression.py" afterPath="$PROJECT_DIR$/neurality/logisticregression.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/scratch-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/scratch-checkpoint.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scratch.ipynb" afterPath="$PROJECT_DIR$/scratch.ipynb" />
     </list>
     <ignored path="DeepLearningTutorials.iws" />
@@ -39,8 +42,8 @@
       <file leaf-file-name="logisticregression.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/neurality/logisticregression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.6548042">
-              <caret line="155" column="58" selection-start-line="155" selection-start-column="58" selection-end-line="155" selection-end-column="58" />
+            <state vertical-scroll-proportion="-0.66548043">
+              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding>
                 <element signature="e#23#35#0" expanded="true" />
               </folding>
@@ -76,8 +79,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/neurality/inputpreprocessor.py" />
-        <option value="$PROJECT_DIR$/neurality/logisticregression.py" />
         <option value="$PROJECT_DIR$/neurality/__init__.py" />
+        <option value="$PROJECT_DIR$/neurality/logisticregression.py" />
       </list>
     </option>
   </component>
@@ -133,6 +136,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="DeepLearningTutorials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DeepLearningTutorials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DeepLearningTutorials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="neurality" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -409,8 +426,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/neurality/logisticregression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6548042">
-          <caret line="155" column="58" selection-start-line="155" selection-start-column="58" selection-end-line="155" selection-end-column="58" />
+        <state vertical-scroll-proportion="-0.66548043">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
             <element signature="e#23#35#0" expanded="true" />
           </folding>
